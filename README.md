@@ -1,8 +1,13 @@
-# React + Vite
+# ShopSphere
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**ShopSphere** is a React.js-based website that fetches products from a dummy API and displays the data.
 
-Currently, two official plugins are available:
+### Key Technologies:
+- **React.js**: For building the user interface.
+- **React-Redux and Redux-Toolkit**: For state management.
+- **Material UI**: For frontend design and styling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Features:
+- **Pagination**: Products are fetched in batches of 10 for efficient loading.
+- **Search Functionality**: Products can be searched based on their titles.
+- **Category-based Filtering**: Allows users to view products belonging to a selected category from the available options.
